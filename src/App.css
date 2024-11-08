@@ -1,0 +1,94 @@
+:root {
+  --link-color: tomato;
+  --text-color: #818081;
+  --nav-color: lightgray;
+}
+html {
+  color: var(--text-color);
+  font-family: "Arial Narrow", Arial, sans-serif;
+}
+body {
+  min-height: 100%;
+  max-width: 1000px;
+  border-left: 5px solid var(--nav-color);
+  margin: 0 auto;
+}
+img {
+  width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 1.5rem;
+  color: var(--link-color);
+}
+h2 {
+  font-size: 1.2rem;
+}
+a {
+  color: var(--link-color);
+}
+nav {
+  padding: 1rem 0 2rem;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  color: var(--nav-color);
+}
+h3 {
+  color: #010001;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+h4 {
+  padding-bottom: 1rem;
+}
+h5 {
+  text-align: right;
+  font-weight: bold;
+}
+article {
+  border-bottom: 1px solid var(--text-color);
+  padding-bottom: 1rem;
+  margin-bottom: 4rem;
+}
+p::first-letter {
+  font-size: 3rem;
+  float: left;
+  margin-right: 0.1em;
+  line-height: 1;
+  color: lightgray;
+}
+footer ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  padding: 0;
+}
+footer li {
+  padding: 0;
+}
+footer a,
+main a {
+  text-decoration: none;
+}
